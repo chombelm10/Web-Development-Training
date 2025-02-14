@@ -1,0 +1,33 @@
+body{
+   background-color: darkslategray;
+}
+h1{
+    color: rgba(1, 7, 12, 0.938);
+}
+form{
+    background-color: rgb(137, 123, 20);
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px hsla(0,0%,0%,0.3);
+}
+#tempvalue{
+    max-width: 250px;
+    height: 30px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+
+}
+
+.button{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#mysubmit{
+    font-size: large;
+    font-family: 'Arial Narrow';
+    border-radius: 10px;
+
+}
