@@ -1,0 +1,32 @@
+<!-- The following project is online QRgenerator of the corresponding text or url...
+i could use some concept of html,css and javascript
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR generator</title>
+    <link rel="stylesheet" href="QR.css">
+</head>
+<body>
+    <div class="container"> 
+        <p>Enter your Text/URL </p> <!--first insert your wants may be text/url-->
+        <input type="text" placeholder="Text or URL" id="qrText">
+        <div id="imgBox">
+            <img src="" id="qrImage" alt="without internet there is no output"><!--then using image tag represent their corresponding text/url QR image-->
+        </div>
+        <button onclick="QRgenerator()">Generate QR code</button>
+        <!--by openning script tag for including js code with in html and performing/manipulating tasks  -->
+        <script>
+            let imgBox=document.getElementById("imgBox");
+            let qrImage=document.getElementById("qrImage");
+            let qrText=document.getElementById("qrText");
+            function QRgenerator(){
+                qrImage.src=" https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="+ qrText.value;
+          // imgBox.classList.add("show-img");
+            }
+        </script>
+    </div>
+</body>
+</html>
