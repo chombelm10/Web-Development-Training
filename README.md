@@ -12,6 +12,7 @@ Generate QR codes instantly from text or URLs using JavaScript.
 - Generate QR codes in real-time
 - User-friendly interface
 - Fast and responsive design
+  ![QR Code Generator](assets/images/qr.png)
 
 ### 🧮 Simple Calculator
 A basic calculator that performs common arithmetic operations.
@@ -21,6 +22,8 @@ A basic calculator that performs common arithmetic operations.
 - Clean and responsive UI
 - Interactive button controls
 
+ ![QR Code Generator](assets/images/calculator.png)
+
 ### 🔐 Simple Login Page
 A modern login page design built with HTML and CSS.
 
@@ -28,6 +31,7 @@ A modern login page design built with HTML and CSS.
 - Responsive layout
 - Attractive user interface
 - Beginner-friendly implementation
+   ![QR Code Generator](assets/images/login.png)
 
 ### 🌡️ Temperature Converter
 Convert temperature values between Celsius, and Fahrenheit.
@@ -36,7 +40,7 @@ Convert temperature values between Celsius, and Fahrenheit.
 - Instant conversions
 - Easy-to-use interface
 - Accurate calculations
-
+ ![QR Code Generator](assets/images/temprature.png)
 ---
 
 ## 🛠️ Technologies Used
