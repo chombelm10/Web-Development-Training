@@ -61,10 +61,20 @@ Through these projects, I practiced:
 
 ## 📂 Project Structure
 
-```text
 Web-Development-Training/
 │
 ├── QR-Code-Generator/
 ├── Calculator/
 ├── Login-Page/
 └── Temperature-Converter/
+
+
+🤝 Contributing
+
+Contributions, suggestions, and feedback are welcome. Feel free to fork this repository and submit a pull request.
+
+👨‍💻 Author
+
+Developed by Daniel Alemayehu
+
+Passionate about Web Development and continuously learning new technologies.
